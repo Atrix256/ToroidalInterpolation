@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="drawing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stb">
+      <UniqueIdentifier>{62720ec2-b302-4c05-8039-2694936fa671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\stb\stb_image_write.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h" />
+  </ItemGroup>
+</Project>
