@@ -7,7 +7,7 @@
 
 static const size_t c_imageWidth = 256;
 static const size_t c_imageHeight = 256;
-static const size_t c_numTimeSteps = 10;
+static const size_t c_numTimeSteps = 11;
 
 static const float c_pi = 3.14159265f;
 static const float c_twoPi = 2.0f * c_pi;
